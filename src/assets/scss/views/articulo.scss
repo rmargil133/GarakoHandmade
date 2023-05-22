@@ -1,6 +1,5 @@
 .articulo{
-    padding-top: 30px;
-    padding-right: 100px;
+    padding: 30px 70px;
     display: flex;
     justify-content: space-between;
 
@@ -19,6 +18,7 @@
 
     &__segunda-seccion{
 
+        padding-right: 100px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -76,37 +76,43 @@
             width: 410px;
         }
 
-        &__cantidad{
-            font-family: 'Inter', sans-serif;
-            font-weight:400;
-            font-size: 16px;
+        &__contenedor-cantidad{
 
+            &__cantidad{
+                display: block;
+                font-family: 'Inter', sans-serif;
+                font-weight:400;
+                font-size: 16px;
+    
+            }
+    
+            &__selector{
+                width: 45px;
+                height: 20px;
+                background-color: #D9D9D9;
+                border-color: transparent;
+                border-radius: 4px;
+                padding-left: 3px;
+            }
         }
 
-        &__selector{
-            width: 45px;
-            height: 20px;
-            background-color: #D9D9D9;
-            border-color: transparent;
-            border-radius: 4px;
-            padding-left: 3px;
-        }
+
 
         &__boton{
+            display: flex;
+            width: 250px;
+            justify-content: space-between;
             button{
-                display: inline-block;
                 font-family: 'Inter', sans-serif;
                 font-weight:700;
                 width: 180px;
                 height: 44px;
                 font-size: 14px;
-                padding-right: 15px;
                 border-color: transparent;
                 background-color: black;
                 color: white;
             }
             &__contenedor{
-                display: inline-block;
                 width: 44px;
                 height: 44px;
                 border: 3px solid black;
@@ -134,7 +140,7 @@
                 margin-bottom: -5px;
                 margin-left: 5px;
                 display: inline-block;
-                height: 25px;
+                height: 20px;
                 width: 60px;
             }
         }

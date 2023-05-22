@@ -74,6 +74,19 @@
             font-weight: 700;
             text-decoration: underline;
             font-size: 17px;
+            cursor: pointer;
+            width: 98px;
+        }
+
+        &__modificar:hover{
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            text-decoration: underline;
+            font-size: 17px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            width: 98px;
         }
 
         h3{
@@ -104,37 +117,67 @@
             font-size: 30px;
         }
         &__section{
-            border: 2 solid black;
-            width: 407px;
-            height: 242px;
-            display: inline-block;
-            p{
-                font-size: 20px;
-                font-family: 'Inter', sans-serif;
-                font-weight: 400;
-                text-decoration: underline;
-            }
-            p:last-child{}
+            margin-top: 10px;
+            display: flex;
             
-        }
-        
-        &__section2{
-            border: 2 solid black;
-            width: 407px;
-            height: 242px;
-            display: inline-block;
-            p{ 
-                font-size: 20px;
-                font-family: 'Inter', sans-serif;
-                font-weight: 400;
+            &__direcciones{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                border: 2 solid black;
+                width: 407px;
+                height: 202px;
+                padding: 10px 20px;
+                p{
+                    font-size: 16px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 400;
+                    text-decoration: underline;
+                }
+                p:last-child{
+                    text-decoration: none;
+                    font-size: 40px;
+                    font-weight: 100;
+                }
             }
-            p:last-child{
-                text-decoration: underline;
-            }
-        
-        }
 
+            &__datos{
+                margin-left: 20px;
+                border: 2 solid black;
+                width: 407px;
+                height: 202px;
+                padding: 10px 20px;
+
+                p:first-child{
+                    font-size: 16px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 700;
+                }
+
+                p{
+                    font-size: 16px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 400;
+                }
+
+                p:nth-of-type(6){
+                    text-decoration: underline;
+                    font-size: 16px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 400;
+                }
+                p:last-child{
+                    text-decoration: underline;
+                    font-size: 16px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 400;
+                }
+            }        
+        }
+        
         button{
+            cursor: pointer;
+            margin-top: 35px;
             width: 200px;
             height: 55px;
             background-color: transparent;
@@ -143,6 +186,19 @@
             font-family: 'Inter', sans-serif;
             font-weight: 700;
             
+        }
+
+        button:hover{
+            cursor: pointer;
+            margin-top: 35px;
+            width: 200px;
+            height: 55px;
+            background-color: black;
+            border: 3 solid rgb(153, 153, 153);
+            color: white;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
         }
     }
 }

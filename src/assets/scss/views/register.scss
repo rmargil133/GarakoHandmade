@@ -1,0 +1,67 @@
+.registro{
+    height: 90vh;
+    &__formulario-registro{
+        margin: 1rem auto;
+        background-color: #363636;
+        width: 380px;
+        height: 620px;
+        color: white;
+
+        img{
+            width: 380px;
+            height: 150px;
+        }
+        h1{
+            padding-top: 10px;
+            padding-left: 30px;
+            width: 372px;
+            font-size: 25px;
+            font-weight: 400;
+            font-family:Sofia Sans;
+        }
+        p{
+            padding-top: 10px;
+            padding-left: 30px;
+            width: 290px;
+            font-size: 12px;
+            font-family:Sofia Sans;
+        }
+        > input:first-of-type{
+            width:300px;
+            height: 40px;
+            margin-left: 30px;
+            display: block;
+            margin-top: 15px;
+        }
+        input:nth-of-type(2){
+            width:300px;
+            height: 40px;
+            margin-left: 30px;
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        label{
+            width: 100%;
+            padding: 5px 30px;
+            font-size: 12px;
+            display: inline-block;
+            display: block;
+            width: 335px;
+        }
+
+        input{
+            margin-right: 5px;
+            width: 25px;
+            height: 25px;
+
+        }
+
+        button{
+            margin-left: 30px;
+            margin-top: 25px;
+            padding: 5px;
+        }
+    }
+}

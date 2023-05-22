@@ -1,0 +1,144 @@
+.articulo{
+    padding-top: 30px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    &__primera-seccion{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        padding-top: 10px;
+        padding-left: 35px;
+
+        img{
+                padding: 20px;
+                max-width: 100%;
+        }
+    }
+      
+
+    &__segunda-seccion{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        &__categoria{
+            font-family: 'Inter', sans-serif;
+            font-weight:400;
+            font-size: 16px;
+            color: #717171;
+        }
+        &__titulo{
+            font-size: 30px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+        }
+        &__precios{
+
+            &__precio-anterior{
+                font-family: 'Inter', sans-serif;
+                font-weight:400;
+                display: inline-block;
+                color: #C0C0C0;
+                text-decoration: line-through;
+            }
+            &__precio-nuevo{
+                font-family: 'Inter', sans-serif;
+                font-weight:400;
+                display: inline-block;
+                color: red;
+            }
+        }
+
+        &__gatos-envio{
+            font-family: 'Inter', sans-serif;
+            font-weight:400;
+            font-size: 16px;
+        }
+        &__descripcion{
+            line-height: 25px;
+            font-family: 'Inter', sans-serif;
+            font-weight:400;
+            width: 420px;
+            font-size: 16px;
+            color: #717171;
+        }
+        &__bajo-pedido{
+            font-family: 'Inter', sans-serif;
+            font-weight:400;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+
+        hr{
+            width: 410px;
+        }
+
+        &__cantidad{
+            font-family: 'Inter', sans-serif;
+            font-weight:400;
+            font-size: 16px;
+
+        }
+
+        &__selector{
+            width: 45px;
+            height: 20px;
+            background-color: #D9D9D9;
+            border-color: transparent;
+            border-radius: 4px;
+            padding-left: 3px;
+        }
+
+        &__boton{
+            button{
+                display: inline-block;
+                font-family: 'Inter', sans-serif;
+                font-weight:700;
+                width: 180px;
+                height: 44px;
+                font-size: 14px;
+                padding-right: 15px;
+                border-color: transparent;
+                background-color: black;
+                color: white;
+            }
+            &__contenedor{
+                display: inline-block;
+                width: 44px;
+                height: 44px;
+                border: 3px solid black;
+    
+                &__favoritos{
+                    margin: 7px 3.7px;
+                    width: 33px;
+                    height: 28px;
+                }
+            }
+        }
+
+        &__contenedor2{
+            margin-bottom: 30px;
+            p{
+                display: inline-block;
+                font-size: 16px;
+                font-family: 'Inter' sans-serif;
+                font-weight: 400;
+                color: #6B6B6B;
+
+            }
+
+            &__paypal{
+                margin-bottom: -5px;
+                margin-left: 5px;
+                display: inline-block;
+                height: 25px;
+                width: 60px;
+            }
+        }
+
+
+    }
+}

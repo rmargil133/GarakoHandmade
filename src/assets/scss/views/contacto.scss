@@ -1,0 +1,39 @@
+.contacto{
+    height: 79vh;
+    &__section{
+        height: 400px;
+        width:370px;
+        margin: 1rem auto;
+        
+        p{
+            padding-top: 10px;
+            width:370px;
+            font-size: 15px;
+            text-decoration: underline;
+        }
+
+        &__formulario{
+            margin-top: 15px;
+            input{
+                width: 370px;
+                height: 30px;
+                display:block;
+                margin-top: 8px;
+            }
+            textarea{
+                width: 370px;
+                height: 100px;
+                display:block;
+                margin-top: 8px;
+                margin-bottom: 7px;
+            }
+            
+            &__foto{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        
+    }
+
+}

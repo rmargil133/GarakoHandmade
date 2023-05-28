@@ -16,15 +16,19 @@
     &__menu{
         padding-left: 100px;
         list-style: none;
-        li{
-            display: inline-block;
-            font-size: 17px; 
-            margin-right: 3px;  
-            a{
-                text-decoration: none;
-                color: white;
-            }       
+
+        &__lista{
+            li{
+                display: inline-block;
+                font-size: 17px; 
+                margin-right: 3px;  
+                a{
+                    text-decoration: none;
+                    color: white;
+                }       
+            }
         }
+
     }
 
     &__contenedor-buscador{ 
@@ -56,13 +60,17 @@
         &__favoritos{ 
             margin-left: 25px;
             width: 24px;
-            height: 20px;}
+            height: 20px;
+        }
         &__cesta{ 
             margin-left: 25px;
             width: 20px;
-            height: 20px;}
-
+            height: 20px;
+        }
     }
+    .menu {
+        display: none;
+      }
 }
 
 @media(max-width:1035px){
@@ -135,4 +143,303 @@
 
 }
 
-@media(max-width:926px){}
+@media(max-width:926px){
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #363636;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+        &__logo{
+            width: 100px;
+        }
+    
+        &__menu{
+            padding-left: 10px;
+            list-style: none;
+            li{
+                display:none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }       
+            }
+        }
+    
+        &__contenedor-buscador{ 
+                display: flex;
+                align-items: center;
+    
+            &__buscador{
+                margin-right: 27px;
+                padding-left: 5px;
+                width: 200px;
+                height: 30px;
+                background-color: #ECEFF1;
+                border-color: #ECEFF1;
+                border-style: none;
+            }
+        
+            &__buscar{
+                margin-top: 6px;
+                margin-right: 30px;
+                margin-left: -50px;
+                width: 20px;
+                height: 20px;
+            }
+            
+            &__user{
+                width: 24px;
+                height: 20px;
+            }
+            &__favoritos{ 
+                margin-left: 25px;
+                width: 24px;
+                height: 20px;}
+            &__cesta{ 
+                margin-left: 25px;
+                width: 20px;
+                height: 20px;}
+        }
+        .menu{
+            display: flex;
+            font-size: 25px;
+            color: white;
+            margin-left: 25px;
+            cursor: pointer;
+          }
+
+    }
+
+}
+
+@media(max-width:630px){
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #363636;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+        &__logo{
+            width: 85px;
+        }
+    
+        &__menu{
+            padding-left: 10px;
+            list-style: none;
+            li{
+                display:none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }       
+            }
+        }
+    
+        &__contenedor-buscador{ 
+                display: flex;
+                align-items: center;
+    
+            &__buscador{
+                margin-right: 27px;
+                padding-left: 5px;
+                width: 170px;
+                height: 30px;
+                background-color: #ECEFF1;
+                border-color: #ECEFF1;
+                border-style: none;
+            }
+        
+            &__buscar{
+                margin-top: 6px;
+                margin-right: 30px;
+                margin-left: -50px;
+                width: 20px;
+                height: 20px;
+            }
+            
+            &__user{
+                width: 20px;
+                height: 18px;
+            }
+            &__favoritos{ 
+                margin-left: 25px;
+                width: 20px;
+                height: 18px;}
+            &__cesta{ 
+                margin-left: 25px;
+                width: 18px;
+                height: 18px;}
+        }
+        .menu{
+            display: flex;
+            font-size: 25px;
+            color: white;
+            margin-left: 25px;
+            cursor: pointer;
+          }
+
+    }
+
+}
+
+@media(max-width:569px){
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #363636;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+        &__logo{
+            width: 85px;
+        }
+    
+        &__menu{
+            padding-left: 10px;
+            list-style: none;
+            li{
+                display:none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }       
+            }
+        }
+    
+        &__contenedor-buscador{ 
+                display: flex;
+                align-items: center;
+    
+            &__buscador{
+                margin-right: 27px;
+                padding-left: 5px;
+                width: 140px;
+                height: 28px;
+                background-color: #ECEFF1;
+                border-color: #ECEFF1;
+                border-style: none;
+            }
+        
+            &__buscar{
+                margin-top: 6px;
+                margin-right: 30px;
+                margin-left: -50px;
+                width: 18px;
+                height: 18px;
+            }
+            
+            &__user{
+                width: 20px;
+                height: 18px;
+            }
+            &__favoritos{ 
+                margin-left: 22px;
+                width: 20px;
+                height: 18px;}
+            &__cesta{ 
+                margin-left: 22px;
+                width: 18px;
+                height: 18px;}
+        }
+        .menu{
+            display: flex;
+            font-size: 25px;
+            color: white;
+            margin-left: 25px;
+            cursor: pointer;
+          }
+
+    }
+
+}
+
+@media(max-width:524px){
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #363636;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+        &__logo{
+            width: 80px;
+        }
+    
+        &__menu{
+            padding-left: 10px;
+            list-style: none;
+            li{
+                display:none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }       
+            }
+        }
+    
+        &__contenedor-buscador{ 
+                display: flex;
+                align-items: center;
+    
+            &__buscador{
+                margin-right: 27px;
+                padding-left: 5px;
+                width: 125px;
+                height: 25px;
+                background-color: #ECEFF1;
+                border-color: #ECEFF1;
+                border-style: none;
+            }
+        
+            &__buscar{
+                margin-top: 6px;
+                margin-right: 25px;
+                margin-left: -50px;
+                width: 17px;
+                height: 18px;
+            }
+            
+            &__user{
+                width: 20px;
+                height: 18px;
+            }
+            &__favoritos{ 
+                margin-left: 22px;
+                width: 20px;
+                height: 18px;}
+            &__cesta{ 
+                margin-left: 22px;
+                width: 18px;
+                height: 18px;}
+        }
+        .menu{
+            display: flex;
+            font-size: 25px;
+            color: white;
+            margin-left: 25px;
+            cursor: pointer;
+          }
+
+    }
+
+}
+

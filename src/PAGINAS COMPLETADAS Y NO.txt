@@ -1,11 +1,20 @@
-COMPLETADAS:
--INDEX.
--CONTACTO.
--ARTICULOS
--ARTICULO.
-LOGIN.  (FALTA ESTILO)
-REGISTER. (FALTA ESTILO)
+HTML COMPLETADOS:
+--TODOS.
 
-NO COMPLETADAS:
-PERFIL-USUARIO.
+SCSS COMPLETADOS:
+--Index.
+--Header.
+--Footer.
+--Login.
+--contacto.scss.
+--Register.
+--perfil-usuarios.css
+--articulo.scss.
 
+
+SCSS POR COMPLETAR:
+
+--articulos.scss.
+
+
+AÑADIR OVERFLOW X EN TODOS LOS BODY DE LOS HTML

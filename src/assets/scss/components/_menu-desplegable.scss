@@ -1,0 +1,49 @@
+/*Aqui tenemos el css del menú desplegable y del div que usamos para cerrar este*/
+.menuDesplegable{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -70%;
+    height: 100%;
+    width: 50%;
+    z-index: 3;
+    background-color:#363636;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+
+    &__cruz{
+        cursor: pointer;
+        margin: 1rem 1rem;
+        background-color: rgb(97, 69, 69);
+        width: 45px;
+    }
+    /*Aqui le damos estilos a nuestras opciones dentro del menú desplegable*/
+    &__opcion{
+        margin-top: 20px;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        }
+    &__opcion:hover{
+        background-color: white;
+        color: black;
+    }
+
+    /*Aqui le damos estilos a nuestra foto dentro del menú desplegable*/
+}
+
+
+
+/*Aqui le damos estilo al div que hemos creado para que cuando pulsemos en el se cierre el menú desplegable*/
+.fondo{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+}
